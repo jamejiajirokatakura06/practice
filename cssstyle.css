@@ -1,0 +1,130 @@
+body{
+   background-color: cornsilk;
+   animation: fadebackground 6s infinite;
+}
+@keyframes fadebackground {
+    from {background-color:cornsilk;}
+    to {background-color: rgb(201, 179, 92);
+    }
+}
+
+  
+
+
+h1{
+
+    font-size: 10vw; 
+    text-align: center; 
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    animation-name: cat;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+
+@keyframes cat {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+
+}
+
+
+.header
+{
+    background-color:rgb(235, 213, 128);
+    width: 100%;
+    margin-left: auto;
+    border: radius 7px;
+    position:fixed;
+    box-shadow: 5px 10px 36px #888888;
+
+}
+
+a.iba{
+margin-top: 10px;
+color: gray;
+padding: 10px;
+border: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 2vw;
+text-decoration: none;
+}
+a:hover, a:active {
+    background-color:rgb(196, 185, 135);
+    color:rgb(58, 50, 50);
+}
+.git
+{
+padding: 10px;
+width: 100px;
+height: 100px;
+animation-name: catty;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+
+@keyframes catty {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+
+}.engineer
+{
+    height: 100px;
+    width: 100px;
+    margin-left: 550px;
+    margin-right: 500px;
+}
+
+p.joyce{
+    text-align: center;
+font-size: 40px;
+background-color: #e5e5e5;
+}
+.lorem
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger; color:cornflowerblue;
+
+}
+
+form#inquiry{
+
+    margin-top: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding:50px;
+    background-color: rgb(176, 170, 192);
+    border-radius: 20px;
+    position:relative;
+    box-shadow: 5px 10px 36px #888888;
+
+}
+
+
+.Login{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 40px;
+  }
+
+#form-input[type=text]
+{
+    box-shadow: 5px 10px 36px #888888;
+
+
+
+}
+
